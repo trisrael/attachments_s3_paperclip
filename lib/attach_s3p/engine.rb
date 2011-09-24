@@ -1,6 +1,4 @@
 require 'action_controller'
-require 'hs_admin/application_helper_extend'
-require 'hs_admin/admin_query_helpers'
 
 module S3P
   class Engine < Rails::Engine
