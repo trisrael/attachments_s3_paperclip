@@ -1,6 +1,6 @@
 require 'rails/generators/migration'
 
-module S3P
+module AttachS3P
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
       include Rails::Generators::Migration
