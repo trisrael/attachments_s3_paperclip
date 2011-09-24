@@ -1,8 +1,8 @@
-require File.expand_path("../lib/hs_admin/version", __FILE__)
+require File.expand_path("../lib/attach_s3p/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = "s3p_attach"
-  s.version = S3P.VERSION
+  s.name = "attach_s3p"
+  s.version = S3P::VERSION
   s.platform = Gem::Platform::RUBY
   s.authors = ["Tristan Goffman"]
   s.email = ["tgoffman@gmail.com"]
