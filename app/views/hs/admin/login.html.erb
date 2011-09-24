@@ -1,0 +1,10 @@
+<div id='hs_admin' class='content'>
+	<h5>Admin Login</h5>
+	<%= "<div>You are already logged in.</div>".html_safe + link_to("Logout", hs_admin_logout_path) if @logged_in %>
+	<%= flash_helper %>
+	<%= form_tag(hs_admin_login_path, :method => "post") do %>
+		<%=  label_tag(:pass, "Password:") %>
+		<%=  text_field_tag(:pass) %>
+		<%=  submit_tag "Login" %>
+	<% end %>
+</div>
